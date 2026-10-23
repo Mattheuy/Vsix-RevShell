@@ -12,4 +12,4 @@ Useful for authorized penetration testing, red team exercises, and CTF challenge
 
 ## Usage
 ```bash
-python3 vsixgen.py <LHOST> <LPORT> <output.vsix>
+python3 Vsix-RevShellGen.py 
