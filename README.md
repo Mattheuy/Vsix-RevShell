@@ -12,4 +12,7 @@ Useful for authorized penetration testing, red team exercises, and CTF challenge
 
 ## Usage
 ```bash
-python3 Vsix-RevShellGen.py 
+Usage:
+    python3 Vsix-RevShellGen.py                      # prompts for IP/port
+    python3 Vsix-RevShellGen.py -i 10.10.14.3 -p 443  # non-interactive
+    python3 Vsix-RevShellGen.py -i 10.10.14.3 -p 443 --name updater --engine 1.118.0
